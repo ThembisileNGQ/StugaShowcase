@@ -46,8 +46,7 @@
   "scripts": {
     "dev": "gatsby develop -S",
     "dev:build": "gatsby build",
-    "build": "npm run fonts:fetch && gatsby build",
-    "fonts:fetch": "wget -O maple.zip https://www.wfonts.com/download/data/2016/05/01/maple/maple.zip; unzip maple.zip -d ./static/fonts; rm maple.zip",
+    "build": "gatsby build",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
