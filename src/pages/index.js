@@ -16,7 +16,7 @@ class Index extends React.Component {
     return (
       <div style={transition ? transition.style : { opacity: 0 }}>
         <Helmet
-          title={`${site.siteMetadata.title} | Designer and Frontend Developer`}
+          title={`${site.siteMetadata.title} | Stuga i Solvesborg`}
         />
         <SEO postEdges={articles} />
         <Header cover={this.props.data.hero}>

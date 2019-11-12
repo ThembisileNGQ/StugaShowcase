@@ -4,9 +4,9 @@ var cssvariables = require('postcss-css-variables');
 
 module.exports = {
   siteMetadata: {
-    title: 'Fabian Schultz',
-    author: 'Fabian Schultz',
-    siteUrl: `https://fabianschultz.com`,
+    title: 'Störberg',
+    author: 'Emma Störberg',
+    siteUrl: `https://stuga.netlify.com`,
   },
   plugins: [
     {
