@@ -1,8 +1,8 @@
 {
-  "name": "site",
-  "description": "My name dot com.",
+  "name": "storbergstuga",
+  "description": "Website for the störberg stugas in sölvesborg",
   "version": "1.0.0",
-  "author": "Fabian Schultz <desk@fabianschultz.com>",
+  "author": "Emma Störberg <emmastorberg@hotmail.com >",
   "dependencies": {
     "autoprefixer": "^8.2.0",
     "babel-plugin-root-import": "^5.1.0",
@@ -30,7 +30,7 @@
     "react-transition-group": "^2.2.1",
     "react-tweet-embed": "^1.0.8"
   },
-  "homepage": "https://fabianschultz.com",
+  "homepage": "https://stuga.netlify.com",
   "keywords": [
     "gatsby"
   ],
@@ -38,10 +38,10 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabe/site.git"
+    "url": "git+https://github.com/Lutando/StugaShowcase"
   },
   "bugs": {
-    "url": "https://github.com/fabe/site/issues"
+    "url": "https://github.com/Lutando/StugaShowcase/issues"
   },
   "scripts": {
     "dev": "gatsby develop -S",

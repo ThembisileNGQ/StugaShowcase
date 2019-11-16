@@ -4,11 +4,10 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 
 const config = {
-  siteTitle: 'Fabian Schultz',
-  author: 'Fabian Schultz',
-  siteDescription: `Hello, I'm Fabian Schultz — a product designer and developer based in Potsdam, Germany.`,
-  siteUrl: 'https://fabianschultz.com',
-  userTwitter: 'fschultz_',
+  siteTitle: 'Sörberg Stuga',
+  author: 'Emma Störberg',
+  siteDescription: `Regn söka därmed, faktor — Löksås ipsum att tid tiden icke när verkligen lax enligt genom hav.`,
+  siteUrl: 'https://stuga.netlify.com'
 };
 
 class SEO extends Component {
@@ -29,7 +28,7 @@ class SEO extends Component {
     } else {
       title = siteTitle;
       description = siteDescription;
-      image = '/covers/hero-bw.jpg';
+      image = '/covers/norje.jpeg';
     }
     image = siteUrl + image;
 

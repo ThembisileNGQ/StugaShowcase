@@ -31,30 +31,40 @@ class Topbar extends React.Component {
         >
           <div className="col">
             <span className="name">
-              <Link to="/" className="link">
-                {this.props.title}
-              </Link>
+              <ul>
+                <li>
+                  <Link to="/" className="link">
+                    {this.props.title}
+                  </Link>
+                </li>
+
+                <li>
+                  <Link className="link" to="/about">
+                    Strand Stuga
+                  </Link>
+                </li>
+                <li>
+                  <Link className="link" to="/about">
+                    Other Stuga
+                  </Link>
+                </li>
+              </ul>
             </span>
           </div>
           <div className="col">
             <nav onClick={this.handleMenuToggle}>
               <ul>
                 <li>
-                  <Link className="link" to="/#work">
-                    Work
-                  </Link>
-                </li>
-                <li>
                   <Link className="link" to="/about">
-                    About
+                    Om
                   </Link>
                 </li>
                 <li>
                   <a
                     className="external link"
-                    href="mailto:desk@fabianschultz.com?subject=Inquiry"
+                    href="mailto:emmastorberg@hotmail.com?subject=Förfrågan"
                   >
-                    Contact
+                    Kontakta
                   </a>
                 </li>
               </ul>

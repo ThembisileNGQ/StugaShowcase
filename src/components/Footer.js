@@ -14,9 +14,9 @@ export default ({ scrollTop, title }) => (
             <li className="email">
               <a
                 className="link"
-                href="mailto:desk@fabianschultz.com?subject=Inquiry"
+                href="mailto:emmastorberg@hotmail.com?subject=Renting"
               >
-                desk@fabianschultz.com
+                emmastorberg@hotmail.com
               </a>
             </li>
             <li>

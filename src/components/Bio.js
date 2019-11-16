@@ -7,8 +7,9 @@ class Bio extends React.Component {
       <div className="bio">
         <Block>
           <h2>
-            Hello, I'm Fabian — a product designer and developer based in
-            Potsdam, Germany.
+            Regn söka därmed, faktor — Löksås ipsum att tid tiden icke när verkligen lax enligt genom hav,
+            när ska det tiden groda av vidsträckt hans så genom händer, annan annat samma om räv det sorgliga på samtidigt på.
+            Genom år som enligt nya tre dimma tidigare dunge faktor, lax dimma sitt både fram annan groda vi, därmed miljoner om precis helt gör stora mjuka. 
           </h2>
         </Block>
         <Block align="right">

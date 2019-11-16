@@ -1,7 +1,7 @@
 import React from 'react';
 import Img from 'gatsby-image';
 
-import hero from '~/static/covers/hero-bw.jpg';
+import hero from '~/static/covers/norje.jpeg';
 import location from '~/static/icons/location.svg';
 
 class Header extends React.Component {

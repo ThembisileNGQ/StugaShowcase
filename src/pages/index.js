@@ -22,23 +22,24 @@ class Index extends React.Component {
         <Header cover={this.props.data.hero}>
           <div className="title">
             <h1>
-              Hello, I’m Fabian &mdash; a designer and front-end developer based
-              in Potsdam, Germany.
+              Regn söka därmed, faktor &mdash; Löksås ipsum att tid tiden icke när verkligen lax enligt genom hav.
             </h1>
           </div>
           <div className="summary">
             <p>
-              I’m focused on turning ideas into delightful, practical software,
-              doing my best work when collaborating closely with founders,
-              designers, and developers.
+            Åker äng plats och sin ingalunda ska omfångsrik fram helt sax och, 
+            inom trevnadens jäst dimmhöljd sax blev björnbär verkligen redan denna, 
+            vidsträckt på samma denna om lax och smultron ordningens varit. 
+            Ska som strand på för om vid mot brunsås ta åker precis, helt att miljoner sig helt miljoner dimmhöljd räv bäckasiner brunsås bra, 
+            sjö ta smultron groda kunde både därmed tid sista strand.
             </p>
             <p>
-              Currently, I’m studying Interface Design at the University of
-              Applied Sciences in Potsdam, Germany.
+            Kanske på blivit dunge vemod mot söka gör och denna lax mot vidsträckt har dimmhöljd har, 
+            händer annat enligt sin dock år fram färdväg rot smultron omfångsrik samtidigt vid.
             </p>
           </div>
         </Header>
-        <Posts posts={articles} />
+         {/*<Posts posts={articles} /> */}
       </div>
     );
   }
@@ -79,7 +80,7 @@ export const query = graphql`
         }
       }
     }
-    hero: file(relativePath: { eq: "hero-bw.jpg" }) {
+    hero: file(relativePath: { eq: "norje.jpeg" }) {
       childImageSharp {
         sizes(maxWidth: 1400, quality: 90) {
           ...GatsbyImageSharpSizes_withWebp
