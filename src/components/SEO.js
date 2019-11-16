@@ -28,7 +28,7 @@ class SEO extends Component {
     } else {
       title = siteTitle;
       description = siteDescription;
-      image = '/covers/norje.jpeg';
+      image = '/covers/norje.jpg';
     }
     image = siteUrl + image;
 

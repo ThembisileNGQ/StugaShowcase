@@ -34,18 +34,18 @@ class Topbar extends React.Component {
               <ul>
                 <li>
                   <Link to="/" className="link">
-                    {this.props.title}
+                    Hem
                   </Link>
                 </li>
 
                 <li>
-                  <Link className="link" to="/about">
-                    Strand Stuga
+                  <Link className="link" to="/strandstuga">
+                    Strandstuga
                   </Link>
                 </li>
                 <li>
-                  <Link className="link" to="/about">
-                    Other Stuga
+                  <Link className="link" to="/angstuga">
+                    Ängstuga
                   </Link>
                 </li>
               </ul>

@@ -80,7 +80,7 @@ export const query = graphql`
         }
       }
     }
-    hero: file(relativePath: { eq: "norje.jpeg" }) {
+    hero: file(relativePath: { eq: "norje.jpg" }) {
       childImageSharp {
         sizes(maxWidth: 1400, quality: 90) {
           ...GatsbyImageSharpSizes_withWebp
