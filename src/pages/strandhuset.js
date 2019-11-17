@@ -9,19 +9,19 @@ import clients from '~/static/clients.svg';
 
 export default ({ posts, transition, data }) => (
   <div style={transition ? transition.style : { opacity: 0 }}>
-    <Helmet title="Fabian Schultz | About" />
+    <Helmet title="Störberg | Strandhuset" />
     <SEO
-      postPath="/about"
+      postPath="/strandhuset"
       postNode={{
-        subtitle: 'About',
-        excerpt: `Hello! I’m a designer & developer focused on turning ideas into delightful, practical software. I’m doing my best work when collaborating closely with founders, designers, and developers.`,
+        subtitle: 'Strandhuset',
+        excerpt: `Strandhuset! Löksås ipsum varit räv rännil så icke tidigare dimma, genom är samtidigt av blev inom groda stora, fram smultron kan som år stig annan.`,
         cover: data.cover,
       }}
       pageSEO
     />
     <Header cover={data.cover}>
       <div className="title">
-        <h1>About</h1>
+        <h1>Strandhuset</h1>
       </div>
       <div className="intro">
         <ul>
@@ -71,8 +71,8 @@ export default ({ posts, transition, data }) => (
 );
 
 export const query = graphql`
-  query GatsbyImageHeroAboutQuery {
-    cover: file(relativePath: { eq: "fabian-schultz.jpg" }) {
+  query GatsbyImageHeroStrandhusetQuery {
+    cover: file(relativePath: { eq: "strandhuset-1.jpg" }) {
       childImageSharp {
         sizes(maxWidth: 700, quality: 90) {
           ...GatsbyImageSharpSizes_withWebp

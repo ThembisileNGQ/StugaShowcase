@@ -6,39 +6,41 @@ import Block from '~/src/components/Block';
 import Figure from '~/src/components/Figure';
 import SEO from '~/src/components/SEO';
 import clients from '~/static/clients.svg';
+import GoogleMapReact from 'google-map-react';
+
+const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 export default ({ posts, transition, data }) => (
   <div style={transition ? transition.style : { opacity: 0 }}>
-    <Helmet title="Fabian Schultz | About" />
+    <Helmet title="Störberg | Hitta Hit" />
     <SEO
-      postPath="/strandstuga"
+      postPath="/hittahit"
       postNode={{
-        subtitle: 'Strandstuga',
-        excerpt: `Strandstuga! Löksås ipsum varit räv rännil så icke tidigare dimma, genom är samtidigt av blev inom groda stora, fram smultron kan som år stig annan.`,
+        subtitle: 'Hitta Hit',
+        excerpt: `Hello! I’m a designer & developer focused on turning ideas into delightful, practical software. I’m doing my best work when collaborating closely with founders, designers, and developers.`,
         cover: data.cover,
       }}
       pageSEO
     />
-    <Header cover={data.cover}>
-      <div className="title">
-        <h1>Strandstuga</h1>
-      </div>
-      <div className="intro">
-        <ul>
-          <li>Professional early adopter.</li>
-          <li>Open Source on default.</li>
-          <li>Indecisive about his job title.</li>
-        </ul>
-      </div>
-    </Header>
     <article id="content">
       <div>
         <Block pull mobilePull>
-          <Figure
-            src={clients}
-            captionLeft
-            caption="Some of the companies I’ve worked with."
-          />
+          <div style={{ height: '100vh', width: '100%' }}>
+            <GoogleMapReact
+              bootstrapURLKeys='AIzaSyCiqGi4M6FsqeXK-_JCXFohRUaFyyD6xDk'
+              defaultCenter={{
+                lat: 56.1156431,
+                lng: 14.6910614
+              }}
+              defaultZoom={17}
+            >
+              <AnyReactComponent
+                lat={59.955413}
+                lng={30.337844}
+                text="My Marker"
+              />
+            </GoogleMapReact>
+          </div>
         </Block>
         <Block align="right" pull mobilePull>
           <p>
@@ -71,8 +73,8 @@ export default ({ posts, transition, data }) => (
 );
 
 export const query = graphql`
-  query GatsbyImageHeroStrandstugaQuery {
-    cover: file(relativePath: { eq: "strandstuga-1.jpg" }) {
+  query GatsbyImageHeroHittaHitQuery {
+    cover: file(relativePath: { eq: "fabian-schultz.jpg" }) {
       childImageSharp {
         sizes(maxWidth: 700, quality: 90) {
           ...GatsbyImageSharpSizes_withWebp

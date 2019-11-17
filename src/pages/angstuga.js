@@ -9,7 +9,7 @@ import clients from '~/static/clients.svg';
 
 export default ({ posts, transition, data }) => (
   <div style={transition ? transition.style : { opacity: 0 }}>
-    <Helmet title="Fabian Schultz | About" />
+    <Helmet title="Störberg | Ängstuga" />
     <SEO
       postPath="/angstuga"
       postNode={{

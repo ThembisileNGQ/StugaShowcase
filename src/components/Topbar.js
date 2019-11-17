@@ -29,48 +29,40 @@ class Topbar extends React.Component {
             ? ' showMenu'
             : ''}`}
         >
-          <div className="col">
-            <span className="name">
-              <ul>
-                <li>
-                  <Link to="/" className="link">
-                    Hem
-                  </Link>
-                </li>
-
-                <li>
-                  <Link className="link" to="/strandstuga">
-                    Strandstuga
-                  </Link>
-                </li>
-                <li>
-                  <Link className="link" to="/angstuga">
-                    Ängstuga
-                  </Link>
-                </li>
-              </ul>
+          <div>
+            <span className={`${this.state.showMenu ? '': 'name'}`}>
+              <nav onClick={this.handleMenuToggle}>
+                <ul>
+                  <li>
+                    <Link to="/" className="link">
+                      START
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="link" to="/strandhuset">
+                      STRANDHUSET
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="link" to="/angstuga">
+                      ÄNGSTUGAN
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="link" to="/hittahit">
+                      HITTA HIT
+                    </Link>
+                  </li>
+                  <li>
+                    <a href="mailto:emmastorberg@hotmail.com?subject=Förfrågan">
+                      KONTAKT/BOKA
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </span>
           </div>
-          <div className="col">
-            <nav onClick={this.handleMenuToggle}>
-              <ul>
-                <li>
-                  <Link className="link" to="/about">
-                    Om
-                  </Link>
-                </li>
-                <li>
-                  <a
-                    className="external link"
-                    href="mailto:emmastorberg@hotmail.com?subject=Förfrågan"
-                  >
-                    Kontakta
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div className="menuicon" onClick={this.handleMenuToggle}>
+          <div className="menuicon name" onClick={this.handleMenuToggle}>
             <span className="top" />
             <span className="bottom" />
           </div>

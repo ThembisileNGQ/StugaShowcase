@@ -22,6 +22,7 @@
     "gatsby-transformer-javascript-frontmatter": "^1.0.8",
     "gatsby-transformer-remark": "^1.7.19",
     "gatsby-transformer-sharp": "^1.6.13",
+    "google-map-react": "^1.1.5",
     "html-metadata": "^1.6.3",
     "postcss-css-variables": "^0.8.0",
     "postcss-csso": "^3.0.0",
