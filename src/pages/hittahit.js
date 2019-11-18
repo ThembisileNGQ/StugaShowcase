@@ -18,7 +18,7 @@ export default ({ posts, transition, data }) => (
       postPath="/hittahit"
       postNode={{
         subtitle: 'Hitta Hit',
-        excerpt: `Hello! I’m a designer & developer focused on turning ideas into delightful, practical software. I’m doing my best work when collaborating closely with founders, designers, and developers.`,
+        excerpt: `Hitta Hit! Löksås ipsum varit räv rännil så icke tidigare dimma, genom är samtidigt av blev inom groda stora, fram smultron kan som år stig annan.`,
         cover: data.cover,
       }}
       pageSEO
@@ -70,7 +70,7 @@ export default ({ posts, transition, data }) => (
 
 export const query = graphql`
   query GatsbyImageHeroHittaHitQuery {
-    cover: file(relativePath: { eq: "fabian-schultz.jpg" }) {
+    cover: file(relativePath: { eq: "norje.jpg" }) {
       childImageSharp {
         sizes(maxWidth: 700, quality: 90) {
           ...GatsbyImageSharpSizes_withWebp
