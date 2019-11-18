@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import ReactFlagsSelect from 'react-flags-select'
+import 'react-flags-select/scss/react-flags-select.scss';
 
 class Topbar extends React.Component {
   constructor() {
@@ -24,11 +26,7 @@ class Topbar extends React.Component {
 
     return (
       <div className="topbar">
-        <div
-          className={`sans-serif grid container${this.state.showMenu
-            ? ' showMenu'
-            : ''}`}
-        >
+        <div className={`sans-serif grid container${this.state.showMenu ? ' showMenu': ''}`}>
           <div>
             <span className={`${this.state.showMenu ? '': 'name'}`}>
               <nav onClick={this.handleMenuToggle}>
@@ -58,6 +56,14 @@ class Topbar extends React.Component {
                       KONTAKT/BOKA
                     </a>
                   </li>
+
+                <li>
+                <ReactFlagsSelect 
+                  countries={["SE", "GB"]}
+                  showSelectedLabel={false} 
+                  showOptionLabel={false}
+                  defaultCountry="SE" />
+                </li>
                 </ul>
               </nav>
             </span>

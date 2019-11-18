@@ -19,40 +19,8 @@ export default ({ scrollTop, title }) => (
                 emmastorberg@hotmail.com
               </a>
             </li>
-            <li>
-              <a href="//github.com/fabe" title="GitHub">
-                <img src={github} alt="GitHub" />
-              </a>
-            </li>
-            <li>
-              <a href="//twitter.com/fschultz_" title="Twitter">
-                <img src={twitter} alt="Twitter" />
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="//stackoverflow.com/users/6941627/fabian-schultz?tab=profile"
-                title="Stack Overflow"
-              >
-                <img src={stacko} alt="Stack Overflow" />
-              </a>
-            </li>
-            <li>
-              <a href="//dribbble.com/fws" title="Dribbble">
-                <img src={dribbble} alt="Dribbble" />
-              </a>
-            </li>
           </ul>
         </nav>
-      </div>
-      <div className="col flex">
-        <span>
-          &copy; {new Date().getFullYear()} {title}
-        </span>
-        <a href="//www.instagram.com/eintrachtfrankfurt">
-          <img src={sge} alt="Eintracht Frankfurt" title="SGE Supporter 🦅" />
-        </a>
       </div>
     </div>
   </footer>

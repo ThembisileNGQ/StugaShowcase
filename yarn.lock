@@ -8396,6 +8396,13 @@ react-error-overlay@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-3.0.0.tgz#c2bc8f4d91f1375b3dad6d75265d51cd5eeaf655"
 
+react-flags-select@^1.1.10:
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/react-flags-select/-/react-flags-select-1.1.10.tgz#3ad8bd8bbc8ef206bb41d2fa3ac90f522826dbda"
+  integrity sha512-8bGih8XVIXwXpuio0I7MqU3nqh82Hdj28rS21HzNUAVdKGtO3lqY6TLDNSTpanAupXSXGfkajkpFQv5XsRvUfA==
+  dependencies:
+    prop-types "^15.5.8"
+
 react-helmet@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-5.2.0.tgz#a81811df21313a6d55c5f058c4aeba5d6f3d97a7"

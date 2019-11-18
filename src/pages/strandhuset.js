@@ -42,27 +42,17 @@ export default ({ posts, transition, data }) => (
         </Block>
         <Block align="right" pull mobilePull>
           <p>
-            Hello! I’m a designer & developer focused on turning ideas into
-            delightful, practical software. I’m doing my best work when
-            collaborating closely with founders, designers, and developers.
+            Tid flera björnbär! Göras där år helt träutensilierna söka och samtidigt, 
+            kunde därmed åker stora i där när, gamla om lax ännu äng ser. 
+            Sig bäckasiner björnbär och för att dock för har, tre när söka brunsås vi vad bäckasiner
           </p>
           <p>
-            Recently, I was a Technology Intern at{' '}
-            <a href="//stinkstudios.com">Stink Studios</a> in New York City,
-            working with brands like Google and Spotify. I’m currently working
-            towards my BA in Interface Design in Potsdam, Germany.
+            verkligen kom åker smultron sjö tre bäckasiner.Hav del kunde hwila se varit därmed år att redan, 
+            samtidigt upprätthållande sin i blev vad kom händer dock, omfångsrik söka samtidigt enligt dock dimmhöljd för enligt.
           </p>
           <p>
-            Before that, I freelanced as a designer/front-end developer hybrid,
-            helping companies such as <a href="//seatgeek.com">SeatGeek</a>,{' '}
-            <a href="//wimdu.com">Wimdu</a>, <a href="//z.cash">Zcash</a>, and{' '}
-            <a href="//door2door.io">door2door</a>.
-          </p>
-          <p>
-            <a href="https://drive.google.com/open?id=19nybcDoTKPWsYAmq5nRmx23NwqYD32er">
-              Résumé
-            </a>{' '}
-            · <a href="https://www.linkedin.com/in/fabian-schultz">LinkedIn</a>
+            Icke sjö se vemod ordningens ska flera samma del bland, både dunge bra sig helt stora söka händer. 
+            Fram bra ordningens har tre sig när ordningens varit, jäst miljoner trevnadens mot och precis inom gör,
           </p>
         </Block>
       </div>
