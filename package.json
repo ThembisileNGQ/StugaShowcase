@@ -29,6 +29,8 @@
     "prop-types": "^15.6.0",
     "react-flags-select": "^1.1.10",
     "react-helmet": "^5.2.0",
+    "react-images": "^1.0.0",
+    "react-photo-gallery": "^8.0.0",
     "react-transition-group": "^2.2.1",
     "react-tweet-embed": "^1.0.8"
   },
