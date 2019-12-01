@@ -10,16 +10,6 @@ export default ({ scrollTop, title }) => (
     <div className="container grid">
       <div className="col">
         <nav>
-          <ul>
-            <li className="email">
-              <a
-                className="link"
-                href="mailto:emmastorberg@hotmail.com?subject=Renting"
-              >
-                emmastorberg@hotmail.com
-              </a>
-            </li>
-          </ul>
         </nav>
       </div>
     </div>

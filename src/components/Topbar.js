@@ -52,9 +52,9 @@ class Topbar extends React.Component {
                     </Link>
                   </li>
                   <li>
-                    <a href="mailto:emmastorberg@hotmail.com?subject=Förfrågan">
+                    <Link className="link" to="/kontakt">
                       KONTAKT/BOKA
-                    </a>
+                    </Link>
                   </li>
 
                 <li>
