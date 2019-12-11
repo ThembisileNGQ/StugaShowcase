@@ -1573,13 +1573,10 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird@3.5.1, bluebird@^3.1.1, bluebird@^3.5.0:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
-
-bluebird@^3.0.5, bluebird@^3.3.4:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
+bluebird@^3.0.5, bluebird@^3.3.4, bluebird@^3.5.0, bluebird@^3.5.5, bluebird@^3.7.1:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
+  integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
 bmp-js@0.0.3:
   version "0.0.3"
@@ -3548,7 +3545,7 @@ extend@^3.0.0, extend@^3.0.1, extend@~3.0.0, extend@~3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
 
-extend@~3.0.2:
+extend@^3.0.2, extend@~3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
 
@@ -5029,14 +5026,15 @@ html-entities@^1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.2.1.tgz#0df29351f0721163515dfb9e5543e5f6eed5162f"
 
-html-metadata@^1.6.3:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/html-metadata/-/html-metadata-1.7.0.tgz#958e1b2655e8f4870f3ffaea009d8baa04173394"
+html-metadata@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/html-metadata/-/html-metadata-1.7.1.tgz#a2d9c6e1175e9fece3a5dd16a822f4651c3d7d82"
+  integrity sha512-8fOixPvpHIGgoE7PO7Bge/uGu5V9YZjmw5/3PkjezwzT/qGJ1dOSeZwXrifz8BVEQiepa9ETmw1+84KQliKATw==
   dependencies:
-    bluebird "3.5.1"
+    bluebird "^3.7.1"
     cheerio "1.0.0-rc.2"
     microdata-node "0.2.1"
-    preq "0.5.4"
+    preq "^0.5.12"
 
 html-void-elements@^1.0.0, html-void-elements@^1.0.1:
   version "1.0.2"
@@ -8157,13 +8155,14 @@ prepend-http@^1.0.0, prepend-http@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
 
-preq@0.5.4:
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/preq/-/preq-0.5.4.tgz#183117d6cb41fe2585dc4d03e60789f44f65ea87"
+preq@^0.5.12:
+  version "0.5.13"
+  resolved "https://registry.yarnpkg.com/preq/-/preq-0.5.13.tgz#8c872ff4f5d76fb23df273cef4b464cdb364e99a"
+  integrity sha512-3ZC3opBq5VI3ueUK/QKSgHhtP2LYo75SmXdJtiaV529/NPE0FafYWj917Z9pYPwbi2oQmIyhtICjxjC7lxgzUQ==
   dependencies:
-    bluebird "^3.1.1"
-    request "^2.67.0"
-    semver "^5.3.0"
+    bluebird "^3.5.5"
+    request "^2.88.0"
+    requestretry "^4.0.0"
 
 preserve@^0.2.0:
   version "0.2.0"
@@ -9186,6 +9185,15 @@ request@^2.83.0:
     tough-cookie "~2.3.3"
     tunnel-agent "^0.6.0"
     uuid "^3.1.0"
+
+requestretry@^4.0.0:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/requestretry/-/requestretry-4.0.2.tgz#38213a65393a25b012d2208d6d20073a7db6b30b"
+  integrity sha512-ZGdO1ZXUQAeCB9xOS2keSN501y7T1t0zPOD58jTAOwamt6qkcBMaGdRBHEOMQRnDtT5fn7S99F0dwADUqCmYqg==
+  dependencies:
+    extend "^3.0.2"
+    lodash "^4.17.10"
+    when "^3.7.7"
 
 require-directory@^2.1.1:
   version "2.1.1"
@@ -11321,7 +11329,7 @@ whatwg-fetch@>=0.10.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
 
-when@^3.7.5:
+when@^3.7.5, when@^3.7.7:
   version "3.7.8"
   resolved "https://registry.yarnpkg.com/when/-/when-3.7.8.tgz#c7130b6a7ea04693e842cdc9e7a1f2aa39a39f82"
 
