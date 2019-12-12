@@ -5,7 +5,7 @@
   "author": "Emma Störberg <emmastorberg@hotmail.com >",
   "dependencies": {
     "autoprefixer": "^9.7.3",
-    "babel-plugin-root-import": "^5.1.0",
+    "babel-plugin-root-import": "^6.4.1",
     "gatsby": "^1.9.100",
     "gatsby-image": "^1.0.19",
     "gatsby-link": "^1.6.24",
