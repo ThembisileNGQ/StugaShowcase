@@ -31,7 +31,7 @@
     "react-helmet": "^5.2.0",
     "react-images": "^1.0.0",
     "react-photo-gallery": "^8.0.0",
-    "react-transition-group": "^2.2.1",
+    "react-transition-group": "^4.3.0",
     "react-tweet-embed": "^1.2.2"
   },
   "homepage": "https://stuga.netlify.com",
