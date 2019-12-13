@@ -1,11 +1,10 @@
 import React from 'react';
 import Header from '~/src/components/Header';
-import HGroup from '~/src/components/HGroup';
-import omg from './omg.mp4';
+import pic from './norjebw.jpg'
 
 export default ({ posts }) => (
   <div>
-    <Header video={omg}>
+    <Header >
       <div className="title">
         <h1>404</h1>
       </div>

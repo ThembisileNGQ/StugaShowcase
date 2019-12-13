@@ -1,12 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
-import Header from '../components/Header';
 import Block from '~/src/components/Block';
-import Figure from '~/src/components/Figure';
 import SEO from '~/src/components/SEO';
-import clients from '~/static/clients.svg';
-import GoogleMapReact from 'google-map-react';
 import pin from '~/src/pages/pin.svg'
 
 const Marker = ({ text }) => <div><img src={pin}></img></div>;
@@ -28,8 +23,8 @@ export default ({ posts, transition, data }) => (
         <Block align="right" pull mobilePull>
           <h1>Kontakt</h1>
             <p>
-            Välkommen att kontakta mig, Peter Håkansson,
-            på:
+              Välkommen att kontakta mig, Peter Håkansson,
+              på:
             </p>
             <p>
             <div>
@@ -41,21 +36,27 @@ export default ({ posts, transition, data }) => (
           </p>
         </Block>
         <Block pull mobilePull>
-          <form name="contact" method="POST" data-netlify="true">
-              <input type="hidden" name="bot-field" />
-              <p>
-                <label>Your Name: <input type="text" name="name" /></label>   
-              </p>
-              <p>
-                <label>Your Email: <input type="email" name="email" /></label>
-              </p>
-              <p>
-                <label>Message: <textarea name="message"></textarea></label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form>
+          <h1>Kontakt</h1>
+          <p>
+          <div className="contact-form">
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="bot-field" />
+                <div>
+                  <label>Name: <input type="text" name="name" /></label>   
+                </div>
+                <div>
+                  <label>Email: <input type="email" name="email" /></label>
+                </div>
+                <div>
+                  <label>Message: <textarea name="message"></textarea></label>
+                </div>
+                  <Block align="right" className="no-padding">
+
+                    <button type="submit"><strong>Send</strong></button>
+                  </Block>
+              </form>
+          </div>
+          </p>
         </Block>
       </div>
     </article>
