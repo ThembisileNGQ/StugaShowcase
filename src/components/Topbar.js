@@ -13,12 +13,21 @@ class Topbar extends React.Component {
 
     this.topbar = {};
     this.handleMenuToggle = this.handleMenuToggle.bind(this);
+    this.handleSelectFlag = this.handleSelectFlag.bind(this);
   }
 
-  handleMenuToggle() {
-    if (window.innerWidth <= 600) {
+  handleMenuToggle(e) {
+    console.log(e.target.className)
+    if(e.target.className.trim() == 'selected--flag--option'){
+      //do nothing
+    }
+    else if (window.innerWidth <= 600) {
       this.setState({ showMenu: !this.state.showMenu });
     }
+  }
+
+  handleSelectFlag(e){
+    console.log(e)
   }
 
   render() {
@@ -32,7 +41,7 @@ class Topbar extends React.Component {
               <nav onClick={this.handleMenuToggle}>
                 <ul>
                   <li>
-                    <Link to="/" className="link">
+                    <Link to="/" className="link" data-id="ss" id="daf">
                       START
                     </Link>
                   </li>
@@ -59,9 +68,11 @@ class Topbar extends React.Component {
 
                 <li>
                 <ReactFlagsSelect 
+                  id="lol"
                   countries={["SE", "GB"]}
                   showSelectedLabel={false} 
                   showOptionLabel={false}
+                  onSelect={this.handleSelectFlag}
                   defaultCountry="SE" />
                 </li>
                 </ul>
@@ -70,6 +81,7 @@ class Topbar extends React.Component {
           </div>
           <div className="menuicon name" onClick={this.handleMenuToggle}>
             <span className="top" />
+            <span className="middle" />
             <span className="bottom" />
           </div>
         </div>
