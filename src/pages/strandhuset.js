@@ -1,18 +1,15 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
 import Header from '../components/Header';
 import Block from '~/src/components/Block';
-import Figure from '~/src/components/Figure';
 import SEO from '~/src/components/SEO';
-import clients from '~/static/clients.svg';
 import PhotoGrid from '~/src/components/PhotoGrid';
 
 const strandstugaphotos = [
   {
     src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
     width: 4,
-    height: 3
+    height: 2
   },
   {
     src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
@@ -23,36 +20,6 @@ const strandstugaphotos = [
     src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
     width: 3,
     height: 4
-  },
-  {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3
-  },
-  {
-    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-    width: 4,
-    height: 3
   }
 ];
 
@@ -73,10 +40,12 @@ export default ({ posts, transition, data }) => (
         <h1>Strandhuset</h1>
       </div>
       <div className="intro">
+        <h2>Fakta hus:</h2>
         <ul>
-          <li>Professional early adopter.</li>
-          <li>Open Source on default.</li>
-          <li>Indecisive about his job title.</li>
+          <li>Byggt 2015</li>
+          <li>120kvm.</li>
+          <li>3 rum och kök.</li>
+          <li>6 sängar.</li>
         </ul>
       </div>
     </Header>
@@ -87,19 +56,49 @@ export default ({ posts, transition, data }) => (
           />
         </Block>
         <Block align="right" pull mobilePull>
-          <p>
-            Tid flera björnbär! Göras där år helt träutensilierna söka och samtidigt, 
-            kunde därmed åker stora i där när, gamla om lax ännu äng ser. 
-            Sig bäckasiner björnbär och för att dock för har, tre när söka brunsås vi vad bäckasiner
-          </p>
-          <p>
-            verkligen kom åker smultron sjö tre bäckasiner.Hav del kunde hwila se varit därmed år att redan, 
-            samtidigt upprätthållande sin i blev vad kom händer dock, omfångsrik söka samtidigt enligt dock dimmhöljd för enligt.
-          </p>
-          <p>
-            Icke sjö se vemod ordningens ska flera samma del bland, både dunge bra sig helt stora söka händer. 
-            Fram bra ordningens har tre sig när ordningens varit, jäst miljoner trevnadens mot och precis inom gör,
-          </p>
+        <p>
+          <h2>Allrum</h2>
+          Det stora öppna allrummet har 3sitssoffa, 4 fotöljer, soffbord, tvbänk, 50 tums tv och cromecast för regniga dagar. 
+          I hallen finner ni en stor garderob för förvaring. 
+        </p>
+        <p>
+          <h2>Kök</h2>
+          Ett komplett kök med stor frys, kyl med dispenser, induktionshällsspis, ugn, kaffebryggare, vattenkokare och allt annat du kan tänkas behöva.
+          Stort köksbord med 8 stolar. 
+        </p>
+        <p>
+          <h2>Sovrum</h2>
+          1: 180cm dubbelsäng och 2 sängbord
+          2: 180cm dubbelsäng, 2 sängbord och en våningssäng. 
+        </p>
+        <p>
+          <h2>Badrum</h2>
+          Rymligt badrum med toa, vattenfallsdusch, handduksvärmare, spegel och designhandfat från kosta boda. 
+        </p>
+        <p>
+          <h2>Utomhus</h2>
+          Stort (30kvm), härligt och soligt trädäck med 6 solsängar + dynor, bord och 6 stolar perfekt för utomhusfrukost.
+          Stor tomt med gräsmatta som sträcker sig hela vägen ner till vattnet (ca 50 meter).
+          Grill finns.
+        </p>
+        <p>
+          <h2>Övrigt</h2>
+          Fibernät finns, lösenord tilldelas er vid ankomst. Boendet är rökfritt.
+        </p>
+        <p>
+          Incheckning: Kan ske vilken tid på dygnet som önskas då stugan har elektroniskt kodlås och ni ej behöver mötas upp för överlämning av nyckel. 
+          Utcheckning: Sker enligt överenskommelse då stugans skick och slutstädning granskas.
+        </p>
+        <p>
+          <h2>Pris</h2>
+          Lågsäsong 8 000:-/vecka
+          Högsäsong 11 000:-/vecka
+          Sweden Rock Festival 35 000:-/vecka
+        </p>
+        <p>
+          <h2>Tillägg:</h2>
+            Om önskas kan lån av sängkläder och handdukar köpas till för 150:-/person per vecka. 
+        </p>
         </Block>
       </div>
     </article>

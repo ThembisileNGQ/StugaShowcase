@@ -73,10 +73,12 @@ export default ({ posts, transition, data }) => (
         <h1>Ängstugan</h1>
       </div>
       <div className="intro">
+      <h2>Fakta hus:</h2>
         <ul>
-          <li>Professional early adopter.</li>
-          <li>Open Source on default.</li>
-          <li>Indecisive about his job title.</li>
+          <li>Byggt 2019</li>
+          <li>100.</li>
+          <li>4 rum och kök.</li>
+          <li>6 sängar.</li>
         </ul>
       </div>
     </Header>
@@ -88,17 +90,42 @@ export default ({ posts, transition, data }) => (
         </Block>
         <Block align="right" pull mobilePull>
           <p>
-            Tid flera björnbär! Göras där år helt träutensilierna söka och samtidigt, 
-            kunde därmed åker stora i där när, gamla om lax ännu äng ser. 
-            Sig bäckasiner björnbär och för att dock för har, tre när söka brunsås vi vad bäckasiner
+            <h2>Allrum</h2>
+            Det öppna allrummet har braskamin, 3sitssoffa, 2 fotöljer, soffbord, tvbänk, 50 tums tv, baspaket av kanaler (1,2,4,6) samt cromecast för regniga dagar. 
           </p>
           <p>
-            verkligen kom åker smultron sjö tre bäckasiner.Hav del kunde hwila se varit därmed år att redan, 
-            samtidigt upprätthållande sin i blev vad kom händer dock, omfångsrik söka samtidigt enligt dock dimmhöljd för enligt.
+            <h2>Kök</h2>
+            Ett komplett kök med kyl och frys, induktionshällsspis, ugn, kaffebryggare, vattenkokare och allt annat du kan tänkas behöva. Mindre köksbord med 3 stolar. + 2 barstolar intill köksskänken.
           </p>
           <p>
-            Icke sjö se vemod ordningens ska flera samma del bland, både dunge bra sig helt stora söka händer. 
-            Fram bra ordningens har tre sig när ordningens varit, jäst miljoner trevnadens mot och precis inom gör,
+            <h2>Sovrum</h2>
+            1: En dubbelsäng (180cm), 2 sängbord och byrå
+            2: En våningssäng (2 x 80cm)
+            3: En bäddsoffa med plats för 2 gäster samt byrå
+          </p>
+          <p>
+            <h2>Badrum</h2>
+            Rymligt badrum med toa, dusch, handfat och spegel.          </p>
+          <p>
+            <h2>Utomhus</h2>
+            Då stugan är helt nybyggd är tomten inte färdigställd ännu och är därför helt täckt i singelsten. Grill finns.          </p>
+          <p>
+            <h2>Övrigt</h2>
+            Fibernät finns, lösenord tilldelas er vid ankomst. Boendet är rökfritt. 
+          </p>
+          <p>
+            Incheckning: Sker enligt överenskommelse då nyckel överlämnas och ni hälsas välkomna. 
+            Utcheckning: Sker enligt överenskommelse då stugans skick och slutstädning granskas.
+          </p>
+          <p>
+            <h2>Pris</h2>
+            Lågsäsong 7 000:-/vecka
+            Högsäsong 9 000:-/vecka
+            Sweden Rock Festival 25 000:-/vecka 
+          </p>
+          <p>
+            <h2>Tillägg:</h2>
+            Om önskas kan lån av sängkläder och handdukar köpas till för 150:-/person per vecka.
           </p>
         </Block>
       </div>
