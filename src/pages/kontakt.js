@@ -23,8 +23,7 @@ export default ({ posts, transition, data }) => (
         <Block align="right" pull mobilePull>
           <h1>Kontakt</h1>
             <p>
-              Välkommen att kontakta mig, Peter Håkansson,
-              på:
+              Välkommen att kontakta mig, Peter Håkansson, på:
             </p>
             <p>
             <div>

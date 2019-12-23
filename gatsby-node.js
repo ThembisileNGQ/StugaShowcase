@@ -1,5 +1,6 @@
 const path = require(`path`);
 var scrape = require('html-metadata');
+const fs = require("fs-extra")
 
 exports.onCreatePage = ({ page, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
@@ -131,3 +132,11 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     );
   });
 };
+
+exports.onPostBuild = () => {
+  console.log("Copying locales")
+  fs.copySync(
+    path.join(__dirname, "/src/locales"),
+    path.join(__dirname, "/public/locales")
+  )
+}

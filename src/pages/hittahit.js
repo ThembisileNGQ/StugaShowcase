@@ -27,20 +27,11 @@ export default ({ posts, transition, data }) => (
       <div>
         <Block pull mobilePull>
           <div className="google-maps">
-            <iframe src="https://maps.google.com/maps?q=Slupv%C3%A4gen%202873%20S%C3%B6lvesborg&t=&z=17&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" ></iframe>
+            <iframe src="https://maps.google.com/maps?q=Slupv%C3%A4gen%202873%20S%C3%B6lvesborg&t=&z=14&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" ></iframe>
           </div>
         </Block>
         <Block align="right" pull mobilePull>
           <h1>Strandhuset</h1>
-          <p>
-            Tid flera björnbär! Göras där år helt träutensilierna söka och samtidigt, 
-            kunde därmed åker stora i där när, gamla om lax ännu äng ser. 
-            Sig bäckasiner björnbär och för att dock för har, tre när söka brunsås vi vad bäckasiner
-          </p>
-          <p>
-            verkligen kom åker smultron sjö tre bäckasiner.Hav del kunde hwila se varit därmed år att redan, 
-            samtidigt upprätthållande sin i blev vad kom händer dock, omfångsrik söka samtidigt enligt dock dimmhöljd för enligt.
-          </p>
         </Block>
       </div>
     </article>
@@ -48,20 +39,11 @@ export default ({ posts, transition, data }) => (
       <div>
         <Block pull mobilePull>
           <div className="google-maps">
-          <iframe src="https://maps.google.com/maps?q=Lodv%C3%A4gen%202803%20S%C3%B6lvesborg&t=&z=17&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" ></iframe>
+          <iframe src="https://maps.google.com/maps?q=Lodv%C3%A4gen%202803%20S%C3%B6lvesborg&t=&z=14&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" ></iframe>
           </div>
         </Block>
         <Block align="right" pull mobilePull>
           <h1>Ängstuga</h1>
-          <p>
-            Tid flera björnbär! Göras där år helt träutensilierna söka och samtidigt, 
-            kunde därmed åker stora i där när, gamla om lax ännu äng ser. 
-            Sig bäckasiner björnbär och för att dock för har, tre när söka brunsås vi vad bäckasiner
-          </p>
-          <p>
-            verkligen kom åker smultron sjö tre bäckasiner.Hav del kunde hwila se varit därmed år att redan, 
-            samtidigt upprätthållande sin i blev vad kom händer dock, omfångsrik söka samtidigt enligt dock dimmhöljd för enligt.
-          </p>
         </Block>
       </div>
     </article>

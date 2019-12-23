@@ -40,13 +40,10 @@ export default ({ posts, transition, data }) => (
         <h1>Strandhuset</h1>
       </div>
       <div className="intro">
-        <h2>Fakta hus:</h2>
-        <ul>
-          <li>Byggt 2015</li>
-          <li>120kvm.</li>
-          <li>3 rum och kök.</li>
-          <li>6 sängar.</li>
-        </ul>
+        <p>
+          Det moderna, fräscha strandhuset passar dig som vill bo bekvämt och lyxigt. 
+          Strandtomten har ett lite avskilt och perfekt läge med havet precis intill.
+        </p>
       </div>
     </Header>
     <article id="content">
@@ -57,32 +54,51 @@ export default ({ posts, transition, data }) => (
         </Block>
         <Block align="right" pull mobilePull>
         <p>
-          <h2>Allrum</h2>
+        <b>Fakta hus</b>
+        
+        <br />
+        Byggt 2015
+            <br/>
+          120kvm
+            <br/>
+          3 rum och kök
+            <br/>
+          6 sängar
+        </p>
+        <p>
+          <b>Allrum</b>
+          <br/>
           Det stora öppna allrummet har 3sitssoffa, 4 fotöljer, soffbord, tvbänk, 50 tums tv och cromecast för regniga dagar. 
           I hallen finner ni en stor garderob för förvaring. 
         </p>
         <p>
-          <h2>Kök</h2>
+          <b>Kök</b>
+          <br/>
           Ett komplett kök med stor frys, kyl med dispenser, induktionshällsspis, ugn, kaffebryggare, vattenkokare och allt annat du kan tänkas behöva.
           Stort köksbord med 8 stolar. 
         </p>
         <p>
-          <h2>Sovrum</h2>
+          <b>Sovrum</b>
+          <br/>
           1: 180cm dubbelsäng och 2 sängbord
+            <br/>
           2: 180cm dubbelsäng, 2 sängbord och en våningssäng. 
         </p>
         <p>
-          <h2>Badrum</h2>
+          <b>Badrum</b>
+          <br/>
           Rymligt badrum med toa, vattenfallsdusch, handduksvärmare, spegel och designhandfat från kosta boda. 
         </p>
         <p>
-          <h2>Utomhus</h2>
+          <b>Utomhus</b>
+            <br/>
           Stort (30kvm), härligt och soligt trädäck med 6 solsängar + dynor, bord och 6 stolar perfekt för utomhusfrukost.
           Stor tomt med gräsmatta som sträcker sig hela vägen ner till vattnet (ca 50 meter).
           Grill finns.
         </p>
         <p>
-          <h2>Övrigt</h2>
+          <b>Övrigt</b>
+          <br/>
           Fibernät finns, lösenord tilldelas er vid ankomst. Boendet är rökfritt.
         </p>
         <p>
@@ -90,13 +106,17 @@ export default ({ posts, transition, data }) => (
           Utcheckning: Sker enligt överenskommelse då stugans skick och slutstädning granskas.
         </p>
         <p>
-          <h2>Pris</h2>
+          <b>Pris</b>
+          <br />
           Lågsäsong 8 000:-/vecka
+          <br/>
           Högsäsong 11 000:-/vecka
+          <br/>
           Sweden Rock Festival 35 000:-/vecka
         </p>
         <p>
-          <h2>Tillägg:</h2>
+          <b>Tillägg</b>
+          <br/>
             Om önskas kan lån av sängkläder och handdukar köpas till för 150:-/person per vecka. 
         </p>
         </Block>

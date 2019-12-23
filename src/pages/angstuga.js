@@ -1,11 +1,8 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Link from 'gatsby-link';
 import Header from '../components/Header';
 import Block from '~/src/components/Block';
-import Figure from '~/src/components/Figure';
 import SEO from '~/src/components/SEO';
-import clients from '~/static/clients.svg';
 import PhotoGrid from '~/src/components/PhotoGrid';
 
 const angstugaphotos = [
@@ -68,18 +65,15 @@ export default ({ posts, transition, data }) => (
       }}
       pageSEO
     />
+    
     <Header cover={data.cover}>
       <div className="title">
         <h1>Ängstugan</h1>
       </div>
       <div className="intro">
-      <h2>Fakta hus:</h2>
-        <ul>
-          <li>Byggt 2019</li>
-          <li>100.</li>
-          <li>4 rum och kök.</li>
-          <li>6 sängar.</li>
-        </ul>
+      <p>
+        I den nybyggda ängstugan bor du modernt och fräscht i ett sommarstugeområde med bara 2 minuters promenad till havet.
+      </p>
       </div>
     </Header>
     <article id="content">
@@ -90,41 +84,65 @@ export default ({ posts, transition, data }) => (
         </Block>
         <Block align="right" pull mobilePull>
           <p>
-            <h2>Allrum</h2>
+            <b>Fakta hus</b>
+            <br />
+            Byggt 2019
+            <br />
+            100.
+            <br />
+            4 rum och kök
+            <br />
+            6 sängar
+          </p>
+          <p>
+            <b>Allrum</b>
+            <br/>
             Det öppna allrummet har braskamin, 3sitssoffa, 2 fotöljer, soffbord, tvbänk, 50 tums tv, baspaket av kanaler (1,2,4,6) samt cromecast för regniga dagar. 
           </p>
           <p>
-            <h2>Kök</h2>
+            <b>Kök</b>
+            <br/>
             Ett komplett kök med kyl och frys, induktionshällsspis, ugn, kaffebryggare, vattenkokare och allt annat du kan tänkas behöva. Mindre köksbord med 3 stolar. + 2 barstolar intill köksskänken.
           </p>
           <p>
-            <h2>Sovrum</h2>
+            <b>Sovrum</b>
+            <br/>
             1: En dubbelsäng (180cm), 2 sängbord och byrå
+            <br />
             2: En våningssäng (2 x 80cm)
+            <br />
             3: En bäddsoffa med plats för 2 gäster samt byrå
           </p>
           <p>
-            <h2>Badrum</h2>
+            <b>Badrum</b>
+            <br/>
             Rymligt badrum med toa, dusch, handfat och spegel.          </p>
           <p>
-            <h2>Utomhus</h2>
+            <b>Utomhus</b>
+            <br/>
             Då stugan är helt nybyggd är tomten inte färdigställd ännu och är därför helt täckt i singelsten. Grill finns.          </p>
           <p>
-            <h2>Övrigt</h2>
+            <b>Övrigt</b>
+            <br/>
             Fibernät finns, lösenord tilldelas er vid ankomst. Boendet är rökfritt. 
           </p>
           <p>
             Incheckning: Sker enligt överenskommelse då nyckel överlämnas och ni hälsas välkomna. 
+            <br />
             Utcheckning: Sker enligt överenskommelse då stugans skick och slutstädning granskas.
           </p>
           <p>
-            <h2>Pris</h2>
+            <b>Pris</b>
+          <br/>
             Lågsäsong 7 000:-/vecka
+          <br/>
             Högsäsong 9 000:-/vecka
+          <br/>
             Sweden Rock Festival 25 000:-/vecka 
           </p>
           <p>
-            <h2>Tillägg:</h2>
+            <b>Tillägg</b>
+            <br/>
             Om önskas kan lån av sängkläder och handdukar köpas till för 150:-/person per vecka.
           </p>
         </Block>

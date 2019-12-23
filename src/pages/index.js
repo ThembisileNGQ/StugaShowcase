@@ -6,13 +6,14 @@ import Header from '../components/Header';
 import Bio from '../components/Bio';
 import Posts from '../components/Posts';
 import SEO from '../components/SEO';
+import { translate, withTranslation } from "react-i18next"
 
 class Index extends React.Component {
   render() {
     const { transition, data } = this.props;
     const { site, allJavascriptFrontmatter } = data;
     const articles = allJavascriptFrontmatter.edges;
-
+    const { t } = this.props
     return (
       <div style={transition ? transition.style : { opacity: 0 }}>
         <Helmet
@@ -22,20 +23,16 @@ class Index extends React.Component {
         <Header cover={this.props.data.hero}>
           <div className="title">
             <h1>
-              Regn söka därmed, faktor &mdash; Löksås ipsum att tid tiden icke när verkligen lax enligt genom hav.
+              Hyr stuga i blekinge och bo granne med havet
             </h1>
           </div>
           <div className="summary">
+            {console.log(t("heading"))}
             <p>
-              Åker äng plats och sin ingalunda ska omfångsrik fram helt sax och, 
-              inom trevnadens jäst dimmhöljd sax blev björnbär verkligen redan denna, 
-              vidsträckt på samma denna om lax och smultron ordningens varit. 
-              Ska som strand på för om vid mot brunsås ta åker precis, helt att miljoner sig helt miljoner dimmhöljd räv bäckasiner brunsås bra, 
-              sjö ta smultron groda kunde både därmed tid sista strand.
+              Här hittar du två nybyggda, moderna, natur- och havsnära semesterboenden med alla bekvämligheter. 
             </p>
             <p>
-              Kanske på blivit dunge vemod mot söka gör och denna lax mot vidsträckt har dimmhöljd har, 
-              händer annat enligt sin dock år fram färdväg rot smultron omfångsrik samtidigt vid.
+              Stugorna är belägna intill Norje Boke Camping utanför Sölvesborg. För mer information om Norje Boke camping klicka <a href="http://www.norjebokecamping.com/en/" target="_blank">här</a>.
             </p>
           </div>
         </Header>
@@ -49,7 +46,7 @@ Index.propTypes = {
   route: PropTypes.object,
 };
 
-export default Index;
+export default withTranslation("PageHeader")(Index);
 
 export const query = graphql`
   query IndexQuery {
