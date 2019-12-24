@@ -1,10 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-
 import Header from '../components/Header';
-import Bio from '../components/Bio';
-import Posts from '../components/Posts';
 import SEO from '../components/SEO';
 import { translate, withTranslation } from "react-i18next"
 
@@ -36,7 +33,6 @@ class Index extends React.Component {
             </p>
           </div>
         </Header>
-         {/*<Posts posts={articles} /> */}
       </div>
     );
   }

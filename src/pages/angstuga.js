@@ -7,49 +7,49 @@ import PhotoGrid from '~/src/components/PhotoGrid';
 
 const angstugaphotos = [
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+    src: "https://i.imgur.com/BYha56o.jpg",
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
+    src: "https://i.imgur.com/FuhnQAE.jpg",
     width: 1,
     height: 1
   },
   {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-    width: 3,
-    height: 4
+    src: "https://i.imgur.com/eANX6IU.jpg",
+    width: 1,
+    height: 1
   },
   {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-    width: 3,
-    height: 4
-  },
-  {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+    src: "https://i.imgur.com/OzrdYuT.jpg",
     width: 4,
     height: 3
   },
   {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
+    src: "https://i.imgur.com/qeeAJ77.jpg",
+    width: 1,
+    height: 1
+  },
+  {
+    src: "https://i.imgur.com/XKzxNlk.jpg",
     width: 3,
+    height: 3
+  },
+  {
+    src: "https://i.imgur.com/dY0mVSa.jpg",
+    width: 4,
     height: 4
   },
   {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3
+    src: "https://i.imgur.com/gxXGdCQ.jpg",
+    width: 1,
+    height: 1
   },
   {
-    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+    src: "https://i.imgur.com/7rSjxEw.jpg",
     width: 4,
-    height: 3
+    height: 4
   }
 ];
 
@@ -133,13 +133,13 @@ export default ({ posts, transition, data }) => (
           </p>
           <p>
             <b>Pris</b>
-          <br/>
+            <br/>
             Lågsäsong 7 000:-/vecka
-          <br/>
+            <br/>
             Högsäsong 9 000:-/vecka
-          <br/>
+            <br/>
             Sweden Rock Festival 25 000:-/vecka 
-          </p>
+            </p>
           <p>
             <b>Tillägg</b>
             <br/>

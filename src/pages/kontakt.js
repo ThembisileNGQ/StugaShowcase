@@ -22,39 +22,39 @@ export default ({ posts, transition, data }) => (
       <div>
         <Block align="right" pull mobilePull>
           <h1>Kontakt</h1>
-            <p>
-              Välkommen att kontakta mig, Peter Håkansson, på:
-            </p>
-            <p>
-            <div>
-               <a href="tel:+46708231506">070 823 15 06</a>
-            </div>
+          <p>
+            För bokning eller frågor är ni välkomna att kontakta mig, Peter Håkansson, på 
           </p>
           <p>
-            eller maila mig via kontaktformuläret nedan.
+          <div>
+            <a href="tel:+46708231506">070 823 15 06</a>
+          </div>
+          </p>
+          <p>
+            eller maila mig via kontaktormuläret.
           </p>
         </Block>
         <Block pull mobilePull>
           <h1>Kontakt</h1>
           <p>
-          <div className="contact-form">
-            <form name="contact" method="POST" data-netlify="true">
-                <input type="hidden" name="bot-field" />
-                <div>
-                  <label>Name: <input type="text" name="name" /></label>   
-                </div>
-                <div>
-                  <label>Email: <input type="email" name="email" /></label>
-                </div>
-                <div>
-                  <label>Message: <textarea name="message"></textarea></label>
-                </div>
-                  <Block align="right" className="no-padding">
+            <div className="contact-form">
+              <form name="contact" method="POST" data-netlify="true">
+                  <input type="hidden" name="bot-field" />
+                  <div>
+                    <label>Name: <input type="text" name="name" /></label>   
+                  </div>
+                  <div>
+                    <label>Email: <input type="email" name="email" /></label>
+                  </div>
+                  <div>
+                    <label>Message: <textarea name="message"></textarea></label>
+                  </div>
+                    <Block align="right" className="no-padding">
 
-                    <button type="submit"><strong>Send</strong></button>
-                  </Block>
-              </form>
-          </div>
+                      <button type="submit"><strong>Send</strong></button>
+                    </Block>
+                </form>
+            </div>
           </p>
         </Block>
       </div>

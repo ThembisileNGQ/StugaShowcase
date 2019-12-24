@@ -41,7 +41,7 @@ class Topbar extends React.Component {
               <nav onClick={this.handleMenuToggle}>
                 <ul>
                   <li>
-                    <Link to="/" className="link" data-id="ss" id="daf">
+                    <Link to="/" className="link">
                       START
                     </Link>
                   </li>

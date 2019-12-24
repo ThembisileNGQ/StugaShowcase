@@ -54,15 +54,14 @@ export default ({ posts, transition, data }) => (
         </Block>
         <Block align="right" pull mobilePull>
         <p>
-        <b>Fakta hus</b>
-        
-        <br />
-        Byggt 2015
-            <br/>
+          <b>Fakta hus</b>
+          <br />
+          Byggt 2015
+          <br/>
           120kvm
-            <br/>
+          <br/>
           3 rum och kök
-            <br/>
+          <br/>
           6 sängar
         </p>
         <p>
@@ -91,7 +90,7 @@ export default ({ posts, transition, data }) => (
         </p>
         <p>
           <b>Utomhus</b>
-            <br/>
+          <br/>
           Stort (30kvm), härligt och soligt trädäck med 6 solsängar + dynor, bord och 6 stolar perfekt för utomhusfrukost.
           Stor tomt med gräsmatta som sträcker sig hela vägen ner till vattnet (ca 50 meter).
           Grill finns.
