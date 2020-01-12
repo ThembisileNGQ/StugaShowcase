@@ -40,7 +40,7 @@ export default ({ posts, transition, data }) => (
     <article id="content">
       <div>
         <Block pull mobilePull>
-          <h1>Ängstuga</h1>
+          <h1>Ängstugan</h1>
         </Block>
         <Block align="right" pull mobilePull>
           <div className="google-maps">
