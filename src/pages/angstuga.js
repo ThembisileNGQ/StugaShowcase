@@ -88,7 +88,7 @@ export default ({ posts, transition, data }) => (
             <br />
             Byggt 2019
             <br />
-            100.
+            100 kvm
             <br />
             4 rum och kök
             <br />

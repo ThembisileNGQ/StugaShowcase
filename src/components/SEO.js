@@ -4,9 +4,9 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 
 const config = {
-  siteTitle: 'Sörberg Stuga',
+  siteTitle: 'Stuguthyrning',
   author: 'Emma Störberg',
-  siteDescription: `Regn söka därmed, faktor — Löksås ipsum att tid tiden icke när verkligen lax enligt genom hav.`,
+  siteDescription: `Hyr stuga i blekinge och bo granne med havet.`,
   siteUrl: 'https://stuga.netlify.com'
 };
 

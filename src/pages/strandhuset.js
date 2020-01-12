@@ -102,6 +102,7 @@ export default ({ posts, transition, data }) => (
         </p>
         <p>
           Incheckning: Kan ske vilken tid på dygnet som önskas då stugan har elektroniskt kodlås och ni ej behöver mötas upp för överlämning av nyckel. 
+          <br/>
           Utcheckning: Sker enligt överenskommelse då stugans skick och slutstädning granskas.
         </p>
         <p>

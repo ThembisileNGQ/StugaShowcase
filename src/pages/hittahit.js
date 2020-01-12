@@ -26,24 +26,26 @@ export default ({ posts, transition, data }) => (
     <article id="content">
       <div>
         <Block pull mobilePull>
+          <br></br>
+          <br></br>
+          <h1>Strandhuset</h1>
+        </Block>
+        <Block align="right" pull mobilePull>
           <div className="google-maps">
             <iframe src="https://maps.google.com/maps?q=Slupv%C3%A4gen%202873%20S%C3%B6lvesborg&t=&z=14&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" ></iframe>
           </div>
-        </Block>
-        <Block align="right" pull mobilePull>
-          <h1>Strandhuset</h1>
         </Block>
       </div>
     </article>
     <article id="content">
       <div>
         <Block pull mobilePull>
+          <h1>Ängstuga</h1>
+        </Block>
+        <Block align="right" pull mobilePull>
           <div className="google-maps">
           <iframe src="https://maps.google.com/maps?q=Lodv%C3%A4gen%202803%20S%C3%B6lvesborg&t=&z=14&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" ></iframe>
           </div>
-        </Block>
-        <Block align="right" pull mobilePull>
-          <h1>Ängstuga</h1>
         </Block>
       </div>
     </article>
