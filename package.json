@@ -30,7 +30,7 @@
     "postcss-css-variables": "^0.14.0",
     "postcss-csso": "^3.0.0",
     "prop-types": "^15.7.2",
-    "react-flags-select": "^1.1.10",
+    "react-flags-select": "^1.1.12",
     "react-helmet": "^5.2.1",
     "react-i18next": "^11.3.4",
     "react-images": "^1.1.2",
