@@ -35,7 +35,7 @@
     "react-i18next": "^11.3.4",
     "react-images": "^1.1.2",
     "react-photo-gallery": "^8.0.0",
-    "react-transition-group": "^4.3.0",
+    "react-transition-group": "^4.4.0",
     "react-tweet-embed": "^1.2.2"
   },
   "homepage": "https://stuga.netlify.com",
