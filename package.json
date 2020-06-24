@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Emma Störberg <emmastorberg@hotmail.com >",
   "dependencies": {
-    "autoprefixer": "^9.7.6",
+    "autoprefixer": "^9.8.4",
     "babel-plugin-root-import": "^6.5.0",
     "gatsby": "^1.9.100",
     "gatsby-image": "^2.3.2",
