@@ -3408,9 +3408,14 @@ event-emitter@~0.3.5:
     d "1"
     es5-ext "~0.10.14"
 
-eventemitter3@1.x.x, eventemitter3@^1.1.0:
+eventemitter3@1.x.x:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-1.2.0.tgz#1c86991d816ad1e504750e73874224ecf3bec508"
+
+eventemitter3@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.4.tgz#b5463ace635a083d018bdc7c917b4c5f10a85384"
+  integrity sha512-rlaVLnVxtxvoyLsQQFBx53YmXHDxRIzzTLbdfxqi4yocpSjAxXwkU0cScM5JgSKMqEhrZpnvQ2D9gjylR0AimQ==
 
 events@^1.0.0:
   version "1.1.1"
@@ -4625,15 +4630,15 @@ glogg@^1.0.0:
   dependencies:
     sparkles "^1.0.0"
 
-google-map-react@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/google-map-react/-/google-map-react-1.1.7.tgz#381baa7d16273de0e981cf2b8f996fccef2ab4a4"
-  integrity sha512-OWwfvVlJG3aQbDZOezWPzT7b8uqk5iMya5yEfBcfGYBFONna5UYCWZl49/cS0j1DPigtwtN0YCzPKjXMQHOUeA==
+google-map-react@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/google-map-react/-/google-map-react-2.0.4.tgz#65a82c049f29fccb82c6edf5473c1b70d425cc7e"
+  integrity sha512-zlyFv3p1zWi8sKSDmSNehEnNPjCxlLslxek2iRMTv4yAxI1bCBp3zBpXEM3xC5juNLBj79l760H1qjn95wRKWA==
   dependencies:
     "@mapbox/point-geometry" "^0.1.0"
-    eventemitter3 "^1.1.0"
-    prop-types "^15.5.6"
-    scriptjs "^2.5.7"
+    eventemitter3 "^4.0.4"
+    prop-types "^15.7.2"
+    scriptjs "^2.5.9"
 
 got@^5.0.0:
   version "5.7.1"
@@ -8310,7 +8315,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@~15.7.2:
+prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@~15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   dependencies:
@@ -9589,7 +9594,7 @@ schema-utils@^0.3.0:
   dependencies:
     ajv "^5.0.0"
 
-scriptjs@^2.5.7:
+scriptjs@^2.5.9:
   version "2.5.9"
   resolved "https://registry.yarnpkg.com/scriptjs/-/scriptjs-2.5.9.tgz#343915cd2ec2ed9bfdde2b9875cd28f59394b35f"
   integrity sha512-qGVDoreyYiP1pkQnbnFAUIS5AjenNwwQBdl7zeos9etl+hYKWahjRTfzAZZYBv5xNHx7vNKCmaLDQZ6Fr2AEXg==
