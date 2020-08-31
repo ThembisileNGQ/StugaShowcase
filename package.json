@@ -22,7 +22,7 @@
     "gatsby-transformer-javascript-frontmatter": "^1.0.8",
     "gatsby-transformer-remark": "^1.7.19",
     "gatsby-transformer-sharp": "^1.6.13",
-    "google-map-react": "^1.1.7",
+    "google-map-react": "^2.1.2",
     "html-metadata": "^1.7.1",
     "i18next": "^19.4.0",
     "i18next-browser-languagedetector": "^4.0.2",
