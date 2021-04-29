@@ -1,0 +1,86 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: gatsby-image
+    versions:
+    - 2.10.0
+    - 2.11.0
+    - 3.0.0
+    - 3.1.0
+    - 3.2.0
+    - 3.3.0
+  - dependency-name: react-i18next
+    versions:
+    - 11.8.10
+    - 11.8.11
+    - 11.8.12
+    - 11.8.13
+    - 11.8.5
+    - 11.8.6
+    - 11.8.7
+    - 11.8.8
+    - 11.8.9
+  - dependency-name: i18next
+    versions:
+    - 19.8.5
+    - 19.8.6
+    - 19.8.7
+    - 19.8.8
+    - 19.8.9
+    - 19.9.0
+    - 19.9.1
+    - 19.9.2
+    - 20.0.0
+    - 20.1.0
+    - 20.2.0
+    - 20.2.1
+  - dependency-name: babel-plugin-root-import
+    versions:
+    - 6.6.0
+  - dependency-name: urijs
+    versions:
+    - 1.19.5
+    - 1.19.6
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
+    - 6.5.4
+  - dependency-name: socket.io
+    versions:
+    - 2.4.1
+  - dependency-name: google-map-react
+    versions:
+    - 2.1.9
+  - dependency-name: autoprefixer
+    versions:
+    - 10.0.1
+  - dependency-name: bl
+    versions:
+    - 1.2.3
+  - dependency-name: http-proxy
+    versions:
+    - 1.18.1
+  - dependency-name: node-sass
+    versions:
+    - 4.14.1
+  - dependency-name: dot-prop
+    versions:
+    - 4.2.1
+  - dependency-name: i18next-browser-languagedetector
+    versions:
+    - 6.0.1
+  - dependency-name: react-flags-select
+    versions:
+    - 1.1.13
+  - dependency-name: react-helmet
+    versions:
+    - 6.1.0
+  - dependency-name: websocket-extensions
+    versions:
+    - 0.1.4
