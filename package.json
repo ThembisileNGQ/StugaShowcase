@@ -24,7 +24,7 @@
     "gatsby-transformer-sharp": "^1.6.13",
     "google-map-react": "^1.1.7",
     "html-metadata": "^1.7.1",
-    "i18next": "^19.4.0",
+    "i18next": "^20.3.2",
     "i18next-browser-languagedetector": "^4.0.2",
     "i18next-xhr-backend": "^3.2.2",
     "postcss-css-variables": "^0.14.0",
